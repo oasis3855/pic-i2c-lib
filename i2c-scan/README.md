@@ -13,6 +13,7 @@ Last Updated : Jan. 2013
   - [回路図・部品表](#回路図部品表)
   - [完成写真およびシリアル出力例](#完成写真およびシリアル出力例)
   - [動作確認済み開発環境](#動作確認済み開発環境)
+- [バージョン情報](#バージョン情報)
 - [ライセンス](#ライセンス)
 
 <br />
@@ -20,7 +21,7 @@ Last Updated : Jan. 2013
 
 ## ソフトウエアのダウンロード
 
-- [このGitHubリポジトリを参照する（ソースコード）](./)
+- ![download icon](../readme_pics/soft-ico-download-darkmode.gif) [このGitHubリポジトリを参照する（ソースコード）](./)
 
 ※ ```i2c-lib.c``` , ```serial-lib.c``` は I2Cバス, シリアルバス通信用の共通ライブラリ
 
@@ -82,6 +83,10 @@ found:3E, 51,
 
 - Microchip MPLAB X IDE ver 1.30
 - Microchip MPLAB XC8 ver 1.01 
+
+## バージョン情報
+
+- Version 2013/01/14
 
 ## ライセンス
 

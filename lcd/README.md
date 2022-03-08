@@ -1,6 +1,6 @@
 ## I2C接続キャラクタLCDに文字列表示 (PIC 12F1822)<!-- omit in toc -->
 
-[Home](https://oasis3855.github.io/webpage/) > [Software](https://oasis3855.github.io/webpage/software/index.html) > [Software Download](https://oasis3855.github.io/webpage/software/software-download.html) > [pic-i2c-lib](../) > ***i2c-lcd*** (this page)
+[Home](https://oasis3855.github.io/webpage/) > [Software](https://oasis3855.github.io/webpage/software/index.html) > [Software Download](https://oasis3855.github.io/webpage/software/software-download.html) > [pic-i2c-lib](../README.md) > ***i2c-lcd*** (this page)
 
 <br />
 <br />
@@ -14,6 +14,7 @@ Last Updated : Feb. 2016
   - [Strawberry Linux SB1602B](#strawberry-linux-sb1602b)
   - [I2C LCD 変換アダプタ mjkdz I2C lcd1602 (第一世代版)](#i2c-lcd-変換アダプタ-mjkdz-i2c-lcd1602-第一世代版)
   - [I2C LCD 変換アダプタ CEG003400](#i2c-lcd-変換アダプタ-ceg003400)
+- [バージョン情報](#バージョン情報)
 - [ライセンス](#ライセンス)
 
 <br />
@@ -21,7 +22,7 @@ Last Updated : Feb. 2016
 
 ## ソフトウエアのダウンロード
 
-- [このGitHubリポジトリを参照する（ソースコード）](./)
+- ![download icon](../readme_pics/soft-ico-download-darkmode.gif) [このGitHubリポジトリを参照する（ソースコード）](./)
 
 ※ ```i2c-lib.c``` , ```serial-lib.c``` は I2Cバス, シリアルバス通信用の共通ライブラリ
 
@@ -172,6 +173,12 @@ D7 | D6 | D5 | D4 | BL | EN | RW | RS
 ---|---|---|---|---|---|---|---
 
 バックライト（BL）ビットは、1のときバックライト点灯、0のとき消灯という動作となる。 
+
+## バージョン情報
+
+- Version 2013/02/02
+- Version 2016/02/01
+  - CEG003400ライブラリ追加
 
 ## ライセンス
 

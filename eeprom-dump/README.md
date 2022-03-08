@@ -1,6 +1,6 @@
 ## I2C EEPROMのダンプ表示と書き込みツール (PIC 12F1822)<!-- omit in toc -->
 
-[Home](https://oasis3855.github.io/webpage/) > [Software](https://oasis3855.github.io/webpage/software/index.html) > [Software Download](https://oasis3855.github.io/webpage/software/software-download.html) > [pic-i2c-lib](../) > ***i2c-eeprom-dump*** (this page)
+[Home](https://oasis3855.github.io/webpage/) > [Software](https://oasis3855.github.io/webpage/software/index.html) > [Software Download](https://oasis3855.github.io/webpage/software/software-download.html) > [pic-i2c-lib](../README.md) > ***i2c-eeprom-dump*** (this page)
 
 <br />
 <br />
@@ -14,6 +14,7 @@ Last Updated : Feb. 2013
 - [回路図・部品表](#回路図部品表)
 - [完成写真およびシリアル出力例](#完成写真およびシリアル出力例)
 - [動作確認済み開発環境](#動作確認済み開発環境)
+- [バージョン情報](#バージョン情報)
 - [ライセンス](#ライセンス)
 
 <br />
@@ -21,7 +22,7 @@ Last Updated : Feb. 2013
 
 ## ソフトウエアのダウンロード
 
-- [このGitHubリポジトリを参照する（ソースコード）](./)
+- ![download icon](../readme_pics/soft-ico-download-darkmode.gif) [このGitHubリポジトリを参照する（ソースコード）](./)
 
 ※ ```i2c-lib.c``` , ```serial-lib.c``` は I2Cバス, シリアルバス通信用の共通ライブラリ。```common-lib.c``` は数値を文字列に変換する共通ライブラリ。
 
@@ -117,6 +118,10 @@ adr 0090,pg 0002
 - Microchip MPLAB X IDE ver 1.60
 - Microchip MPLAB XC8 ver 1.01
 - Microchip MPLAB XC8 ver 1.12 
+
+## バージョン情報
+
+- Version 2013/02/03
 
 ## ライセンス
 
